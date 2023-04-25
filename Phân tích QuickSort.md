@@ -3,9 +3,13 @@
 **Ý tưởng:** Chọn một phần tử trong mảng làm điểm đánh dấu (pivot) sau đó chia mảng chính thành các mảng con, di chuyển các phần tử nhỏ hơn pivot sang trái vị trí của pivot, di chuyển tất cả phần tử lớn hơn sang bên phải pivot
 
 **Các bước thực hiện:**
+
 **Bước 1:** Lấy phần tử chốt là phần tử ở cuối danh sách.
+
 **Bước 2:** Chia mảng theo phần tử chốt.
+
 **Bước 3:** Sử dụng sắp xếp nhanh một cách đệ qui với mảng con bên trái.
+
 **Bước 4:** Sử dụng sắp xếp nhanh một cách đệ qui với mảng con bên phải.
 
 **Độ phức tạp:**
