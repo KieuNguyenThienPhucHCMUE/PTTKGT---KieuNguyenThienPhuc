@@ -15,3 +15,29 @@
 **Độ phức tạp:**
 
 Sử dụng một mảng chossen_times[i] là số lần được chọn của viên đá quý thứ i. Bắt đầu từ vị trí dp[W] trên bảng phương án. Duyệt qua từng viên đá quý. Làm đến W = 0 thì dừng nên giải thuật sẽ có độ phức tạp O (W x n)****
+
+
+**Hướng dẫn thực thi chương trình:** 
+
+INPUT:
+
+Dòng 1: n và W
+
+n dòng tiếp theo: wi và vi tăng dần
+
+OUPUT:
+
+Dòng 1:Tổng giá trị lớn nhất các vật lấy được
+
+**Mẫu ví dụ:**
+
+INPUT:
+
+2 100
+1 1
+50 30
+
+
+OUTPUT:
+
+100
