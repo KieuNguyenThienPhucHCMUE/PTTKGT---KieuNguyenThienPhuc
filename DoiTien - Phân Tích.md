@@ -1,7 +1,5 @@
 # Phân tích bài toán DoiTien
 
-# Phân tích bài toán balo1
-
 **Ý tưởng:** Đổi tiền bằng thuật toán tham lam sao cho số tờ tiền là ít nhất. Lần lượt chia nhỏ số tiền ra cho các mệnh giá.
 
 **Các bước thực hiện:**
