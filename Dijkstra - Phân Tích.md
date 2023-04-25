@@ -19,3 +19,51 @@ Sau đó tiến hành tối ưu các đường đi cạnh N bằng cách thử k
 
 Độ phức tạp của thuật toán: O(E.log(V))
 
+
+**Hướng dẫn thực thi chương trình:** 
+
+INPUT:
+
+Sửa trực tiếp trong đối tượng edges tập các cạnh, đỉnh, trọng số.
+
+OUPUT:
+
+Đường đi ngắn nhất đến các đỉnh.
+
+**Mẫu ví dụ:**
+
+INPUT:
+
+  vector<Edge> edges =
+    {
+        {0, 1, 10}, {0, 4, 3}, {1, 2, 2}, {1, 4, 4}, {2, 3, 9},
+        {3, 2, 7}, {4, 1, 1}, {4, 2, 8}, {4, 3, 2}
+    };
+  
+OUTPUT:
+
+Path (0 —> 1): Minimum cost = 4, Route = [0, 4, 1]
+  
+Path (0 —> 2): Minimum cost = 6, Route = [0, 4, 1, 2]
+  
+Path (0 —> 3): Minimum cost = 5, Route = [0, 4, 3]
+  
+Path (0 —> 4): Minimum cost = 3, Route = [0, 4]
+  
+Path (1 —> 2): Minimum cost = 2, Route = [1, 2]
+  
+Path (1 —> 3): Minimum cost = 6, Route = [1, 4, 3]
+  
+Path (1 —> 4): Minimum cost = 4, Route = [1, 4]
+  
+Path (2 —> 3): Minimum cost = 9, Route = [2, 3]
+  
+Path (3 —> 2): Minimum cost = 7, Route = [3, 2]
+  
+Path (4 —> 1): Minimum cost = 1, Route = [4, 1]
+  
+Path (4 —> 2): Minimum cost = 3, Route = [4, 1, 2]
+  
+Path (4 —> 3): Minimum cost = 2, Route = [4, 3]
+
+
