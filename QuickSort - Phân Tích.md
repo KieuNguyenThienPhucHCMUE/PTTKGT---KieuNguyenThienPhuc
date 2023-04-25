@@ -8,9 +8,9 @@
 
 **Bước 2:** Chia mảng theo phần tử chốt.
 
-**Bước 3:** Sử dụng sắp xếp nhanh một cách đệ qui với mảng con bên trái.
+**Bước 3:** Sử dụng Quick Sort một cách đệ qui với mảng con bên trái.
 
-**Bước 4:** Sử dụng sắp xếp nhanh một cách đệ qui với mảng con bên phải.
+**Bước 4:** Sử dụng Quick Sort một cách đệ qui với mảng con bên phải.
 
 **Độ phức tạp:**
 
