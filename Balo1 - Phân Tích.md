@@ -33,3 +33,19 @@ n dòng tiếp theo: wi và vi tăng dần
 OUPUT:
 
 Dòng 1:Tổng giá trị lớn nhất các vật lấy được
+
+**Mẫu ví dụ:**
+
+INPUT:
+
+3 50
+
+10 60
+
+20 100
+
+30 120
+
+OUTPUT:
+
+220
