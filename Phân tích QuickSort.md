@@ -13,6 +13,9 @@
 **Bước 4:** Sử dụng sắp xếp nhanh một cách đệ qui với mảng con bên phải.
 
 **Độ phức tạp:**
+
 **Phân đoạn không cân bằng:** không có phần nào cả, một bài toán con có kích thước n-1 và bài toán kia có kích thước là 0. Đó là trường hợp xấu nhất xảy ra khi dãy đã cho là dãy đã được sắp xếp và phần tử chốt được chọn là phần tử đầu của dãy **=> độ phức tạp thuật toán sẽ là O(n^2)**
+
 **Phân đoạn hoàn hảo:** phân đoạn luôn thực hiện dưới dạng phân thì đôi, mỗi bài toán con có kích thước là n/2 => độ phức tạp thuật toán là O(nlogn)
+
 **Phân đoạn cân bằng:** một bài toán con có kích thước n-k và bài toán kia có kích thước là k => độ phức tạp thuật toán là O(n)
