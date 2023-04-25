@@ -15,3 +15,30 @@
  T(n)=nT(n-1)+C2= n(n-1)T(n-2) + nC2 +C2 = n(n-1)(n-2)T(n-3) + nC2 + n(n-1)C2 + C2 = n!(T(1)) + nC2 + n(n-1)C2 + ... 
  
  **=> Độ phức tạp O(n!)**
+
+
+**Hướng dẫn thực thi chương trình:** 
+
+INPUT:
+
+Sửa trực tiếp biến **n** trong bài.
+
+OUPUT:
+
+Các cách xếp n quân hậu vào bàn.
+
+**Mẫu ví dụ:**
+
+INPUT:
+
+8
+
+OUTPUT: (một phần nhỏ vì quá dài)
+
+ 1 5 8 6 3 7 2 4
+ 
+ 1 6 8 3 7 4 2 5
+ 
+ 1 7 4 6 8 2 5 3
+ 
+ 1 7 5 8 2 4 6 3
