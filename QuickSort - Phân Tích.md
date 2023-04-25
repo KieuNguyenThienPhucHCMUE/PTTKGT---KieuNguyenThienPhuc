@@ -19,3 +19,26 @@
 **Phân đoạn hoàn hảo:** phân đoạn luôn thực hiện dưới dạng phân thì đôi, mỗi bài toán con có kích thước là n/2 => độ phức tạp thuật toán là O(nlogn)
 
 **Phân đoạn cân bằng:** một bài toán con có kích thước n-k và bài toán kia có kích thước là k => độ phức tạp thuật toán là O(n)
+
+
+**Hướng dẫn thực thi chương trình:** 
+
+INPUT:
+
+Sửa đổi trực tiếp trong mảng số: arr[]
+
+OUPUT:
+
+Dãy số sắp xếp quicksort
+
+
+**Mẫu ví dụ:**
+
+INPUT:
+
+10, 50, 30, 40, 70, 80, 90
+
+
+OUTPUT:
+
+10 30 40 50 70 80 90
