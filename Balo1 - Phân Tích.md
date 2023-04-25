@@ -21,3 +21,15 @@ Bài toán cái túi có thời gian tính là O(NL). Thời gian này phụ thu
 tuyến tính vào dữ liệu vào L, nhưng nếu xét nó như hàm của độ dài dữ liệu
 vào thì l=[log L] thì sự phụ thuộc này lại là hàm mũ.
 Thuật toán làm việc hiệu quả khi L không qua lớn
+
+**Hướng dẫn thực thi chương trình:** 
+
+INPUT:
+
+Dòng 1: n và W
+
+n dòng tiếp theo: wi và vi tăng dần
+
+OUPUT:
+
+Dòng 1:Tổng giá trị lớn nhất các vật lấy được
