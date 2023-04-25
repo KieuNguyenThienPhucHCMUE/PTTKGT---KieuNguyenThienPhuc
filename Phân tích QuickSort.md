@@ -1,4 +1,5 @@
-#Phân tích giải thuật Quick Sort
+# Phân tích giải thuật Quick Sort 
+
 **Ý tưởng:** Chọn một phần tử trong mảng làm điểm đánh dấu (pivot) sau đó chia mảng chính thành các mảng con, di chuyển các phần tử nhỏ hơn pivot sang trái vị trí của pivot, di chuyển tất cả phần tử lớn hơn sang bên phải pivot
 
 **Các bước thực hiện:**
